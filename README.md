@@ -4,7 +4,11 @@ Mall with KYC, it is for Pre-Hackathon Hk
 
 
 January 13, 2019 12:48 pm
-Delegate task for KYC and AML with 
+Delegate task for KYC and AML with Blockpass
+
+January 13, 2019 2:08 pm
+Done submit the github?
+
 
 ## Getting Started
 
