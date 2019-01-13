@@ -1,4 +1,4 @@
-import 'package:decentralmall/Model/WhatAppschat_model.dart';
+import 'package:decentralmall/Model/chatmodel.dart';
 import 'package:flutter/material.dart';
 
 class DecentralMallWhiteCustomer extends StatefulWidget {
