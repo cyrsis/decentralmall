@@ -1,6 +1,10 @@
 # decentralmall
 
-Mall with KYC
+Mall with KYC, it is for Pre-Hackathon Hk
+
+
+January 13, 2019 12:48 pm
+Delegate task for KYC and AML with 
 
 ## Getting Started
 
