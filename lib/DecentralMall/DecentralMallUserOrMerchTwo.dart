@@ -6,15 +6,16 @@ import 'package:fluttersandbox2018/Styles/AppColors.dart';
 import 'package:fluttersandbox2018/Styles/AppImage.dart';
 import 'package:fluttersandbox2018/Styles/AppStyle.dart';
 
-class DecentralMallUserOrMerch extends StatefulWidget {
-  DecentralMallUserOrMerch({Key key}) : super(key: key);
+class DecentralMallUserOrMerchTwo extends StatefulWidget {
+  DecentralMallUserOrMerchTwo({Key key}) : super(key: key);
 
   @override
-  _DecentralMallUserOrMerchState createState() =>
-      new _DecentralMallUserOrMerchState();
+  _DecentralMallUserOrMerchTwoState createState() =>
+      new _DecentralMallUserOrMerchTwoState();
 }
 
-class _DecentralMallUserOrMerchState extends State<DecentralMallUserOrMerch> {
+class _DecentralMallUserOrMerchTwoState
+    extends State<DecentralMallUserOrMerchTwo> {
   var Score = 0;
 
   @override
@@ -28,21 +29,6 @@ class _DecentralMallUserOrMerchState extends State<DecentralMallUserOrMerch> {
           }),
     );
   }
-
-//  Widget _buildScore(BuildContext context, List<DocumentSnapshot> snapshot) {
-//    return ListView(
-//      children:
-//          snapshot.map<Widget>((data) => _buildText(context, data)).toList(),
-//    );
-//  }
-//
-//  _buildText(BuildContext context, DocumentSnapshot data) {
-//    final blockPassScore = BlockPassScore.fromSnapshot(data);
-//    return new Text(
-//      "${blockPassScore.votes}",
-//      style: AppStyle.Montserrat14GreenBold,
-//    );
-//  }
 
   _buildBody(BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
     return new Center(
@@ -91,9 +77,8 @@ class _DecentralMallUserOrMerchState extends State<DecentralMallUserOrMerch> {
             new Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                new Image.asset(
-                    AppImage.decntralmarket_blockpasslogo, width:80 ,
-                    height: 60, fit: BoxFit.contain),
+                new Image.asset(AppImage.decntralmarket_blockpasslogo,
+                    width: 80, height: 60, fit: BoxFit.contain),
 //                  new Text("${Score}",style:AppStyle.Montserrat14GreenBold,)
                 _buildtemp(context, snapshot.data.documents),
               ],

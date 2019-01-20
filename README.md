@@ -2,6 +2,11 @@
 
 Mall with KYC, it is for Pre-Hackathon Hk
 
+January 20, 2019 10:53 am
+Looking for a merge with the main branch
+
+January 20, 2019 10:24 am
+let's get some work done for the Android
 
 January 13, 2019 12:48 pm
 Delegate task for KYC and AML with Blockpass

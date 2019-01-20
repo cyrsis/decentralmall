@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import './DecentralMallVertife.dart';
-import '../Styles/AppDecoration.dart';
-import '../Styles/AppImage.dart';
-import '../Styles/AppStyle.dart';
+import 'package:fluttersandbox2018/DecentralMall/DecentralMallVertife.dart';
+import 'package:fluttersandbox2018/Styles/AppDecoration.dart';
+import 'package:fluttersandbox2018/Styles/AppImage.dart';
+import 'package:fluttersandbox2018/Styles/AppStyle.dart';
 
 class DecentralMallFeedScreen extends StatefulWidget {
   DecentralMallFeedScreen({Key key}) : super(key: key);

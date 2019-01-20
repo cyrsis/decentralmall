@@ -1,5 +1,6 @@
-import 'package:decentralmall/Model/chatmodel.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttersandbox2018/Bloc/GlobalBloc.dart';
+import 'package:fluttersandbox2018/Whatappsclone/models/WhatAppschat_model.dart';
 
 class DecentralMallWhiteCustomer extends StatefulWidget {
   DecentralMallWhiteCustomer({Key key}) : super(key: key);
@@ -41,12 +42,23 @@ class _DecentralMallWhiteCustomerState
                       ),
                     ],
                   ),
-                  subtitle: new Container(
-                    padding: const EdgeInsets.only(top: 5.0),
-                    child: new Text(
-                      dummyData[i].message,
-                      style: new TextStyle(color: Colors.grey, fontSize: 15.0),
-                    ),
+                  subtitle: new Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      new Text(
+                        dummyData[i].message,
+                        style:
+                            new TextStyle(color: Colors.grey, fontSize: 15.0),
+                      ),
+                      IconButton(
+                          icon: Icon(Icons.add),
+                          onPressed: () async {
+                            globalBloc.inOn(false);
+                            print("${await globalBloc.outOn.first}");
+
+                            print("Add Clicks");
+                          })
+                    ],
                   ),
                 )
               ],

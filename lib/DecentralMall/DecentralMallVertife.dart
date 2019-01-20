@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import '../DecentralMall/DecentralMallUserOrMerch.dart';
-import '../Styles/AppStyle.dart';
+import 'package:fluttersandbox2018/DecentralMall/DecentralMallUserOrMerch.dart';
+import 'package:fluttersandbox2018/Screen/EatIdecideScreen.dart';
+import 'package:fluttersandbox2018/Styles/AppStyle.dart';
 import 'package:barcode_scan/barcode_scan.dart';
-import '../Util/Widget_Utils.dart';
+import 'package:fluttersandbox2018/Util/Widget_Utils.dart';
 import 'package:flutter/services.dart';
 
 class DecentralMallVertife extends StatefulWidget {
@@ -24,7 +25,7 @@ class _DecentralMallVertifeState extends State<DecentralMallVertife> {
         child: Column(
           children: <Widget>[
             new SizedBox(height: 200.0),
-            new Text("Vertification Page",
+            new Text("Vertification",
                 style: AppStyle.Montserrat20DarkLightBlue),
             new Text("Power & Vertify By Blockpass",
                 style: AppStyle.Montserrat8DarkBlue),

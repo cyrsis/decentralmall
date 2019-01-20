@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import './DecentralMallFeedScreen.dart';
-import './DecentralMallSettingScreen.dart';
-import './DecentralMallVertife.dart';
-import '../Styles/AppDecoration.dart';
-import '../Styles/AppImage.dart';
-import '../Styles/AppStyle.dart';
+import 'package:fluttersandbox2018/DecentralMall/DecentralMallFeedScreen.dart';
+import 'package:fluttersandbox2018/DecentralMall/DecentralMallSettingScreen.dart';
+import 'package:fluttersandbox2018/DecentralMall/DecentralMallVertife.dart';
+import 'package:fluttersandbox2018/Styles/AppDecoration.dart';
+import 'package:fluttersandbox2018/Styles/AppImage.dart';
+import 'package:fluttersandbox2018/Styles/AppStyle.dart';
 
 class DecentralMallMainScreen extends StatefulWidget {
   DecentralMallMainScreen({Key key}) : super(key: key);
@@ -38,7 +38,7 @@ class _DecentralMallMainScreenState extends State<DecentralMallMainScreen>
         backgroundColor: Colors.white,
         elevation: 0.0,
         title: new Text(
-          "Decentral Mall ",
+          "Liberties ",
           style: AppStyle.Montserrat20DarkLightBlue,
         ),
         actions: <Widget>[

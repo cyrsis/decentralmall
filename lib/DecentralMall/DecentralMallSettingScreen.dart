@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../Styles/AppDecoration.dart';
-import '../Styles/AppImage.dart';
+import 'package:fluttersandbox2018/Styles/AppDecoration.dart';
+import 'package:fluttersandbox2018/Styles/AppImage.dart';
 
 class DecentralMallSettingScreen extends StatefulWidget {
   DecentralMallSettingScreen({Key key}) : super(key: key);
